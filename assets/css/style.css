@@ -54,15 +54,18 @@
     background-color: rgb(223, 223, 223);
     
 }
-#name,#email,#phone{
+#name,#email{
+    margin: 2.5px;
     width: 50%;
     
 }
 #message{
-   
+    margin: 2px;
     width: 25%;
 }
 #submit{
+    margin-top: 0px;
+    margin-bottom: 2px;
     width: 15%;
     border-radius: 5%;
     color: #126bc5;
@@ -75,6 +78,7 @@
 #Main-footer{
     border-top: 2px solid grey;
     /* height: 20vh; */
+   
     
     
     
@@ -146,8 +150,8 @@
     text-decoration: none;
     text-align: center;
 }
-a:hover {
-    color: hotpink;
+#Main-Footer-ul a:hover {
+    color: #126bc5;
   }
 @media (max-width: 364px){
     #Main-Footer-ul a{
@@ -161,6 +165,9 @@ a:hover {
     padding-top: 3vh;
     color: grey;
     text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+    
 
 }
 @media (max-width: 364px){
