@@ -16,12 +16,12 @@
     
     
 }
-#Main-banner-p{
-    
+#Main-banner>p{
+    margin: 0px;
+    padding: 0px;
 }
 #Main-logo{
-    padding-left: 43%;
-    text-align: center;
+    
 }
 
 .carousel-inner{
@@ -31,8 +31,7 @@
     object-fit: cover;
 }
 #EOS-Container{
-    /* border-top: 2px solid black; */
-    /* height: 30vh; */
+    border-top: 2px solid lightgrey;
     overflow: auto;
 
 }

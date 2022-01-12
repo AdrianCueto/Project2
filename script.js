@@ -116,7 +116,7 @@ function validateform() {
     if (ntest && etest1 && etest2 && etest3 && etest4) {
         $('#formstatus').html('Requirements met please submit contact form');
     } else {
-        $('#formstatus').html('Contact Requirements not met...');
+        $('#formstatus').html('Contact Requirements not yet met...');
     }
 
 
