@@ -151,6 +151,15 @@
         
     }
 }
+@media (max-width: 291px) {
+    #Main-footer-slogan{
+        color: #126bc5;
+        text-align: center;
+        font-size: 0.4rem;
+        font-weight: 200;
+        
+    }
+}
 #Main-Footer-ul {
         display: flex;
         justify-content: space-evenly;
